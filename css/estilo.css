@@ -1,0 +1,65 @@
+.conteudo{
+    color: white;
+    background-color: rgb(202, 10, 10);
+    padding: 50px 80px;
+    text-align: justify;
+}
+h3{
+    text-transform: uppercase;
+    color: aliceblue;
+    text-align: center;
+}
+body, html{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+    height: 100%;
+}
+.caixa1, .caixa2, .caixa3, .caixa4{
+    
+    color: black;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    
+}
+.caixa1{
+    background-image: url(../img/viuvaNegra.jpg);
+}
+.caixa2{
+    background-image: url(../img/capitaMarvel.jpg);
+}
+.caixa3{
+    background-image: url(../img/homemDeFerro.jpg);
+}
+.caixa4{
+    background-image: url(../img/panteraNegra.jpg);
+}
+.conteudoTitulo{
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    
+    
+    
+    
+}
+.conteudoTitulo, h2.titulo {
+    
+    display: inline;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px;
+    letter-spacing: 5px;
+    
+    
+}
+h2{
+    background-color: rgb(202, 10, 10);
+}
